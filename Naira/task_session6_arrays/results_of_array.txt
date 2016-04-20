@@ -1,0 +1,30 @@
+# print elements of the array
+naira
+romero
+20
+1.65
+58
+["naira", "romero", "20", "1.65", "58"]  # print with inspect
+
+
+
+removes and return the firts element=2
+
+#the traditional way touse arrays. it return the size of the array
+romero
+garcia
+delgado
+rocha
+4
+
+#returns the last elemnt and removes it from the array
+last animal of the array= elephante
+
+#appends elements to the end of an array
+["giraffa", "dove", "cat", "dog", "monkey"]
+
+#returns the first element and removes it from the array
+removes anr return the firts element=2
+
+#appends elements to the beginning of an array
+["10", "11", "romero", "4", "6", "8", "9", "naira"]
