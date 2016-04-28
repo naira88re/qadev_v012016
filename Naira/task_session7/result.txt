@@ -1,0 +1,30 @@
+C:\materias\RUBY\qadev_v012016\Naira\task_session7>ruby Hash1.rb
+please enter the lengh of the Hash:
+3
+Please enter the key_value [number]
+1
+Please enter the element [string]
+cat
+Please enter the key_value [number]
+2
+Please enter the element [string]
+dog
+Please enter the key_value [number]
+3
+Please enter the element [string]
+bird
+{1=>"cat", 2=>"dog", 3=>"bird"}
+get the key:
+1
+2
+3
+get the value:
+cat
+dog
+bird
+the value is in hash
+{1=>"cat"}
+The key is the hash
+{2=>"dog", 3=>"bird"}
+Prints the hash
+#<Hashes:0x00000002824c70 @has1={1=>"cat", 2=>"dog", 3=>"bird"}>
