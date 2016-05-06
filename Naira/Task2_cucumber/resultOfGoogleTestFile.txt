@@ -1,0 +1,36 @@
+
+  
+C:\materias\RUBY\qadev_v012016\Naira\Cucumber\features>cucumber googleTest.featu
+re
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+Feature: Interact with the mause in the main page of Google
+
+  Scenario: Put the mouse over the search button     # googleTest.feature:3
+    Given a user move the mouse in google main page  # googleTest.feature:4
+    When the mouse is  over the button Google Search # googleTest.feature:5
+    Then the button Google Search is highlighted.    # googleTest.feature:6
+
+  Scenario: Put the mouse over the I'm feeling Luck button # googleTest.feature:
+8
+    Given A user move the mouse in google main page        # googleTest.feature:
+9
+    When The mouse is over the button I'm feeling Luck     # googleTest.feature:
+10
+    Then The button I'm feeling Luck is highlighted.       # googleTest.feature:
+11
+
+  Scenario: Put the mouse over the Google icon      # googleTest.feature:13
+    Given A user move the mouse in google main page # googleTest.feature:14
+    When The mouse is over the icon Google          # googleTest.feature:15
+    Then A tooltip is displayed thata says Google   # googleTest.feature:16
+
+  Scenario: Available the Search by voice option    # googleTest.feature:18
+    Given A user move the mouse in google main page # googleTest.feature:19
+    When The mouse is over the microphone icon      # googleTest.feature:20
+    And a user click on the microphone icon         # googleTest.feature:21
+    Then The Search voice option is available       # googleTest.feature:22
+
+4 scenarios (4 undefined)
+13 steps (13 undefined)
+0m0.062s
