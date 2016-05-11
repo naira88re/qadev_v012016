@@ -1,0 +1,52 @@
+
+Given(/^The form of (.*) is loadded$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I write my userName correctly$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I write my password Correctly$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I click on submit button$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^My personal session of facebook is running$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I click on my profile button$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^My personal profile is display$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I write Ana Moya into search fill$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^Click on Search button$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^A list of results are displayed:$/) do |table|
+  # table is a Cucumber::Core::Ast::DataTable
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^a new name MoyaClaros is inserted in row (\d+), column (\d+)$/) do |name, row,col
+|
+  row, col = row.to_i, col.to_i
+    @board[row][col] = name.to_s
+end
+
+Then(/^the table result should look like:$/) do |table|
+  # table is a Cucumber::Core::Ast::DataTable
+  pending # Write code here that turns the phrase above into concrete actions
+end

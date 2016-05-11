@@ -1,0 +1,16 @@
+Feature: Login in into facebook
+Background: 
+Given The form of log in is loadded
+When I write my userName correctly
+	And I write my password Correctly
+	And I click on submit button
+Then My personal session of facebook is running
+
+Scenario: Search a contact into faceboook
+When I write Ana Moya into search fill
+	And Click on Search button 
+Then A list of result is display
+
+Scenario: See my profile in facebook
+When I click on my profile button
+Then My personal profile is display   
