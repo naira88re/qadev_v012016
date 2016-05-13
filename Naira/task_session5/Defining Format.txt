@@ -1,0 +1,50 @@
+
+DEFINNING GUIDELLINE FOR:
+
+-Format (int, float, string): 
+Returns the result of interpreting leading characters in str as a floating point number
+Examples:
+number = gets.chomp.to_f 
+int: to_i
+number = gets.chomp.to_i
+string: to_s
+string = gets.chomp.to_s
+
+-Classes: This is the unit way that a I found to create  classes: Keyword= class followed by the name class
+class Animal
+ #code
+end
+-Methods:
+I suggest to use the next format because it is more unsdertable from my pointbecause is more understable 
+for people that is new in ruby and is familiria with another languajes :
+
+def rest(number1,number2)
+rest = number1 - number2
+end
+
+-Variables, Getter/Setter
+I suggest to use the next format because I think that should be more undertable for 
+people that is new in ruby languaje and is familiari with other langauges.
+
+
+class Object
+  def initialize(object_name, number)
+    @object_name = object_name
+    @number = number
+  end
+  
+  def object_name
+    @object_name
+  end
+end
+
+
+If condition
+I suggest to use the next format because I think that should be more understable for people tha is new in ruby language
+
+number = 100
+puts number = 10 if  number = 100
+
+ 
+ 
+

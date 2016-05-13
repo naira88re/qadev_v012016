@@ -1,0 +1,15 @@
+Resultado de la Clase PERSON >ruby Person.rb
+Hi Naira
+Have a nice DayRomero
+----------------------------------------------------------------
+Resultado de la clase Fhater and Child1, Child2, Child3 es:
+
+C:\materias\RUBY\qadev_v012016\Naira\Task_sesion4>ruby Father.rb
+100
+The mount of this child1 is : 3
+97
+The mount of this child2 is : 20
+77
+The mount of this child2 is : 30
+47
+

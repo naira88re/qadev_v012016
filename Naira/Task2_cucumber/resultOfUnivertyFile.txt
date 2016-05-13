@@ -1,0 +1,22 @@
+on/) to get coloured output on Windows
+Feature: Register  to the new semester at the university
+I as a student I have register at the univerty for the new semester in 5 subject
+s and changes the subject  for a better schedule.
+
+  Scenario: Register at a subject in a specific schedule. # university.feature:4
+
+    Given I have to register in the system                # university.feature:5
+
+    When Stars a new semester                             # university.feature:6
+
+    Then I chose the best schedule for the subject.       # university.feature:7
+
+
+  Scenario: Changes the schedule for a subject.         # university.feature:9
+    Given I have to changes the shcedule for a subject. # university.feature:10
+    When the system is available.                       # university.feature:11
+    Then I could choose a schedule.                     # university.feature:12
+
+2 scenarios (2 undefined)
+6 steps (6 undefined)
+0m0.109s

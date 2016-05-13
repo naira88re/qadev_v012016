@@ -1,0 +1,52 @@
+                                            PRACTICE
+1. When and why BDD was defined?
+
+BDD fue definido para el desarrollo guiado por el comportamiento fue desarrollado por 
+Dan North como respuesta a los problemas que surgían al enseñar el desarrollo guiado 
+por pruebas:
+
+Dónde comenzar en el proceso
+Qué probar y qué no probar
+Qué tanto probar en una sola oportunidad
+Cómo llamar a las pruebas
+Cómo entender por qué una prueba falla
+The most important aspects of BDD
+
+2. Why is useful and when could be applied.
+Es util porque busca un lenguaje de desarrollo  comun para unir la parte tecnica 
+y la de negocio, y apartir de ese lenguaje comun es dede donde arranque el testing y desde ahi el desarrollo.
+
+3. Which type of teams could implement BDD
+Aplican equipos de desarrollo agil (Scrum, XP).
+
+4.Structure of a feature – Give an example
+Feature: Tener un Caminion
+As a Rockero
+I want toa Camion
+Because I want to be happy.
+
+5. Structure of a user story – Give an example
+As a [role]
+I want [feature]
+So that [benefit]
+
+6. Structure of a scenario – Give an example
+Given, dada (condicion previa para el escenario)
+When, cuando(ejecutar una accion en la aplicacion bajo pruebas)
+Then, entonces(el resultado deseado)
+
+Example:
+Scenario: haciendo ruido con mi camion.
+Given, yo soy rockero y tengo un camion.
+when,  yo toco el claxon.
+Then suena un ruido estrepitoso que me hace feliz.
+
+7. Differences between BDD and BDT
+La principal diferencia esta en el alcance. TDD es una practica de desarrollo 
+(se enfoca en como escribir el código y como debería trabajar ese código)
+mientras que BDD es una metodología de equipo
+(Se enfoca en porque debes escribir ese código y como se debería comportar ese código).
+
+En TDD el desarrollador escribe los tests mientras que en BDD el usuario final
+(o PO o analista) en conjunto con los testers escriben los tests 
+(y los Devs solo generan el código necesario para correr esos tests)
